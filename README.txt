@@ -75,7 +75,8 @@ PennKey: dailingw
     Functionality is adequately separated between classes. I only have one type of game object (Tiles) and the
     game rules require the Tiles to interact with each other, so game actions need to be done in the Grid class
     where we have access to the game board. Variables are encapsulated and properly accessed/modified through
-    helper functions.
+    helper functions. If I were to refactor my project, I would try splitting my Grid class into two classes
+    like TicTacToe for better organization. One would be for the game board and the other would be for game rules.
 
 
 ========================
@@ -84,3 +85,9 @@ PennKey: dailingw
 
 - Cite any external resources (images, tutorials, etc.) that you may have used 
   while implementing your game.
+    https://www.youtube.com/watch?v=0A__Wde0FbI&ab_channel=SylvainSaurel
+    Used this tutorial to code the draw function for Tile and to get an idea of necessary
+    functions for Grid.
+    https://play2048.co/
+    Official 2048 game for reference
+    A lot of Stack Overflow questions
